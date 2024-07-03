@@ -60,4 +60,4 @@ You will be able to see the above output. similarly check if the start script ru
 once the script is working, you can use the cron job to schedule it to execute automatically type the following commands: crontab -e (opens it in the editor mode) provide the time in UTC value for example see the below command. 30 02 * * * cd /home/opc/stop && /usr/bin/python3.6 stop_instances.py >>test1.out for further information follow the below link: https://www.jcchouinard.com/python-automation-with-cron-on-mac/
 
 
-![image](https://github.com/Lucifer970901/start_and_stop_instances/assets/26675416/dadcdde3-820a-4f13-beab-815a7c60192a)
+
